@@ -107,12 +107,12 @@ export const siteConfig: SiteConfig = {
 
   contact: {
     email: "anishkr0098@gmail.com",
-    calendar: "https://cal.com/janedeveloper",
+    calendar: "https://cal.com/anish-kumar-dbg",
     heading: "Let's Connect",
     subheading: "Open to collaborations, freelance work, or just a conversation.",
     rows: [
       { icon: "mail",     href: "mailto:anishkr0098@gmail.com",                 label: "Email",           mono: "anishkr0098@gmail.com" },
-      { icon: "calendar", href: "https://cal.com/janedeveloper",         label: "Schedule a call", mono: "cal.com/janedeveloper" },
+      { icon: "calendar", href: "https://cal.com/anish-kumar-dbg",         label: "Schedule a call", mono: "cal.com/anishkr" },
       { icon: "twitter",  href: "https://x.com/aneeshkr_",           label: "X / Twitter",     mono: "@aneeshkr_" },
       { icon: "github",   href: "https://github.com/anishkr-sahu",           label: "GitHub",          mono: "anishkr-sahu" },
     ],

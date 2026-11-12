@@ -82,7 +82,7 @@ export const resumeExperience: ResumeExperienceItem[] = [
   {
     company: "Neo Skillz",
     role: "AI/ML Intern",
-    period: "Jul 2026 – Present",
+    period: "Jul – Oct  2026",
     bullets: [
       " Learning and applying core concepts of Artificial Intelligence and Machine Learning",
       " Working with Python for data analysis, preprocessing, and basic model development",

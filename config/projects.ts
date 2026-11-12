@@ -28,25 +28,27 @@ export interface ProjectsConfig {
 export const projects: ProjectsConfig = {
   personal: [
     {
+      title: "Atlas Enterprise AI — Governed Knowledge Copilot",
+      description: "Built a stateful conversational AI copilot using LangGraph, Amazon Bedrock (Nova Lite), and Pinecone with persistent conversation memory in PostgreSQL and automated S3 presigned-URL document ingestion.   Integrated application-level guardrails, a Human-in-the-Loop (HITL) admin approval queue for sensitive administrative requests, and end-to-end latency/error tracing using GlassFlow Rius.",
+      tech: ["Python","LangGraph","PineCone","PostgreSql","Amazon Bedrock", "FastAPI","AWS S3","Docker"],
+     // status: "Paused",
+      link: "https://github.com/anishkr-sahu/Atlas-Enterprise-AI",
+    },
+    {
+      title: "Chest Disease Classification",
+      description: "Built an automated medical image classification system using TensorFlow and Flask, enabling real-time chest disease screening through a web interface.Orchestrated end-to-end pipeline versioning with DVC, tracked model metrics via MLflow, and established a GitHub Actions CI/CD pipeline to deploy Dockerized containers on AWS EC2.",
+      tech: ["Python", "TensorFlow","DVC","MLFlow","Docker","AWS"],
+      link: "https://github.com/anishkr-sahu/chest_disease",
+    },
+    {
       title: "US-Visa approval prediction ",
-      description: "Classification project whether the visa approved or not",
+      description: "Developed a supervised classification model to automate visa eligibility screening, achieving 90% F1-score after applying SMOTEENN resampling and feature engineering on historical immigration data.Designed a fault-tolerant ML architecture featuring schema validation, MongoDB data connectors, and AWS S3 model pushing, reducing manual evaluation bottlenecks.",
       tech: ["Python", "Scikit-learn", "Mongodb","aws","Docker"],
       link: "https://github.com/anishkr-sahu/us-visa",
       //stars: ,
     },
-    // {
-    //   title: "Another Project",
-    //   description: "A second example. Keep each description tight — two lines max reads best.",
-    //   tech: ["Go", "Redis"],
-    //   link: "https://github.com/janedeveloper/another-project",
-    // },
-    // {
-    //   title: "Paused Experiment",
-    //   description: "A project you started but haven't touched in a while — mark it with a status.",
-    //   tech: ["Rust"],
-    //   status: "Paused",
-    //   link: "https://github.com/janedeveloper/experiment",
-    // },
+    
+
   ],
 
   client: [
@@ -67,11 +69,11 @@ export interface ResumeProjectItem {
 
 export const resumeProjects: ResumeProjectItem[] = [
   {
-    name: "Example Project",
-    desc: "Slightly longer description suitable for a résumé — focus on outcomes, scale, and the specific technologies involved.",
+    name: "Atlas Enterprise AI — Governed Knowledge Copilot",
+    desc: "Built a stateful conversational AI copilot using LangGraph, Amazon Bedrock (Nova Lite), and Pinecone with persistent conversation memory in PostgreSQL and automated S3 presigned-URL document ingestion.   Integrated application-level guardrails, a Human-in-the-Loop (HITL) admin approval queue for sensitive administrative requests, and end-to-end latency/error tracing using GlassFlow Rius.",
   },
   {
-    name: "Another Project",
-    desc: "Second résumé-worthy project. Two lines is plenty.",
+    name: "Chest Disease Classification",
+    desc: "Built an automated chest disease classification system using TensorFlow and Flask for real-time medical image screening via a web UI.Versioned data pipelines with DVC, tracked experiments via MLflow, and automated Docker deployments on AWS EC2 using GitHub Actions.",
   },
 ]
