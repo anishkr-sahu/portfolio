@@ -30,9 +30,9 @@ export const experience: ExperienceItem[] = [
   {
     company: "Neo Skillz",
     role: "AI/ML Intern",
-    period: "Summer intern jun-sep 2026",
+    period: "Summer intern jul-oct 2026",
     description: "Exploration of the Articial Intelligence",
-    tech: ["Python", "AI","ML","DL","NLP","MLOPs"],
+    tech: ["Python", "SQL","ML","DL","NLP","GenAI","AgenticAI","MLOPs"],
     achievements: [
       " Learning and applying core concepts of Artificial Intelligence and Machine Learning",
        " • Working with Python for data analysis, preprocessing, and basic model development",
@@ -82,7 +82,7 @@ export const resumeExperience: ResumeExperienceItem[] = [
   {
     company: "Neo Skillz",
     role: "AI/ML Intern",
-    period: "Jun 2026 – Present",
+    period: "Jul 2026 – Present",
     bullets: [
       " Learning and applying core concepts of Artificial Intelligence and Machine Learning",
       " Working with Python for data analysis, preprocessing, and basic model development",
@@ -117,6 +117,5 @@ export const education: EducationItem = {
 }
 
 export const teaching: string[] = [
-  "Ran a weekend study group on data structures for ~15 local students.",
-  "Guest-lectured an intro-to-web-dev class at my alma mater.",
+  "Ran a weekend study group on data structures for ~15 local students."
 ]

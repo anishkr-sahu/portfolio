@@ -98,11 +98,11 @@ export const siteConfig: SiteConfig = {
   },
 
   social: {
-    github: "https://github.com/anish-dbg",
-    twitter: "https://x.com/anishkr_dbg",
+    github: "https://github.com/anishkr-sahu",
+    twitter: "https://x.com/aneeshkr_",
     blog: "https://example.com/blog",
-    githubUsername: "anish-dbg",
-    twitterHandle: "anish-dbg",
+    githubUsername: "anishkr-sahu",
+    twitterHandle: "aneeshkr_",
   },
 
   contact: {
@@ -111,10 +111,10 @@ export const siteConfig: SiteConfig = {
     heading: "Let's Connect",
     subheading: "Open to collaborations, freelance work, or just a conversation.",
     rows: [
-      { icon: "mail",     href: "anishkr0098@gmail.com",                 label: "Email",           mono: "anishkr0098@gmail.com" },
+      { icon: "mail",     href: "mailto:anishkr0098@gmail.com",                 label: "Email",           mono: "anishkr0098@gmail.com" },
       { icon: "calendar", href: "https://cal.com/janedeveloper",         label: "Schedule a call", mono: "cal.com/janedeveloper" },
-      { icon: "twitter",  href: "https://x.com/anishkr_dbg",           label: "X / Twitter",     mono: "@anish-dbg" },
-      { icon: "github",   href: "https://github.com/anish-dbg",           label: "GitHub",          mono: "anish-dbg" },
+      { icon: "twitter",  href: "https://x.com/aneeshkr_",           label: "X / Twitter",     mono: "@aneeshkr_" },
+      { icon: "github",   href: "https://github.com/anishkr-sahu",           label: "GitHub",          mono: "anishkr-sahu" },
     ],
   },
 

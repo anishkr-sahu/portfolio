@@ -16,9 +16,9 @@ export interface LinkItem {
 }
 
 export const links: LinkItem[] = [
-  { title: "The Zen of Erlang",      author: "Fred Hebert",     url: "https://ferd.ca/the-zen-of-erlang.html",                  tag: "systems" },
-  { title: "Fearless Concurrency",   author: "The Rust Book",   url: "https://doc.rust-lang.org/book/ch16-00-concurrency.html", tag: "rust" },
-  { title: "without.boats",          author: "withoutboats",    url: "https://without.boats",                                   tag: "rust" },
+  { title: "Automate the boring stuff with python",      author: "AI Sweigart",     url: "https://automatetheboringstuff.com/",                  tag: "Language" },
+  { title: "Hand's on Machine Learning",   author: "AUtelian Geron",   url: "https://books.google.com/books?id=HHetDwAAQBAJ&printsec=frontcover", tag: "Mathematical tools" },
+  { title: "Deep Learning",          author: "Ian GoodFellow",    url: "https://www.deeplearningbook.org/",                                   tag: "Mimic human brain" },
   { title: "Meditations",            author: "Marcus Aurelius", url: "https://www.gutenberg.org/ebooks/2680",                   tag: "philosophy" },
-  { title: "Solana Program Library", author: "Solana Labs",     url: "https://spl.solana.com",                                  tag: "solana" },
+  { title: "Generative AI with langchain", author: "Ben Auffarth",     url: "https://github.com/benman1/generative_ai_with_langchain/blob/second_edition/README.md",                                  tag: "GenAI" },
 ]

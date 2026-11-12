@@ -35,10 +35,12 @@ export const terminal: TerminalConfig = {
     "Calm and Confident.",
   ],
   skills: [
-    "Languages:  TypeScript · Go · Python",
-    "Frontend:   React · Next.js · TailwindCSS",
-    "Backend:    Node.js · PostgreSQL · Redis",
-    "DevOps:     Docker · AWS · Vercel",
+    "Languages:  Python · SQL · C++",
+    "ML/DL Frameworks:   PyTorch · TensorFlow · Keras · Scikit-learn · Huggingface · Transformers ",
+    "GenAI/LLMs:    Langchain · Langraph · CrewAI · Prompt Engineering · RAG · OpenAI API",
+    "Vector Databases:     PineCone · Chroma · FAISS",
+    "Data & Tools:    Pandas · Numpy · Matplotlib · Jupyter · Git/Github · Flask · Streamlit",
+    "Cloud & Deployments:    AWS · Docker · Kubernetes · MLFlow · CI/CD · FastAPI"
   ],
   experience: [
     // "Acme Corp    Jan 2024 – Present   Senior Software Engineer",
@@ -47,8 +49,8 @@ export const terminal: TerminalConfig = {
   ],
   contact: [
     "email:    anishkr0098@gmail.com",
-    "github:   https://github.com/anish-dbg",
-    "twitter:  https://x.com/anishkr_dbg",
+    "github:   https://github.com/anishkr-sahu",
+    "twitter:  https://x.com/aneeshkr_",
     "cal:      cal.com/janedeveloper",
   ],
   resume: [

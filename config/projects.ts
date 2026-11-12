@@ -27,13 +27,13 @@ export interface ProjectsConfig {
 
 export const projects: ProjectsConfig = {
   personal: [
-    // {
-    //   title: "Example Project",
-    //   description: "One-sentence description of what you built and why it matters.",
-    //   tech: ["TypeScript", "Next.js", "PostgreSQL"],
-    //   stars: 42,
-    //   link: "https://github.com/janedeveloper/example-project",
-    // },
+    {
+      title: "US-Visa approval prediction ",
+      description: "Classification project whether the visa approved or not",
+      tech: ["Python", "Scikit-learn", "Mongodb","aws","Docker"],
+      link: "https://github.com/anishkr-sahu/us-visa",
+      //stars: ,
+    },
     // {
     //   title: "Another Project",
     //   description: "A second example. Keep each description tight — two lines max reads best.",
